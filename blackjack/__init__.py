@@ -1,2 +1,5 @@
+from .game import Blackjack
+
+
 def play():
-    pass
+    Blackjack().play()
